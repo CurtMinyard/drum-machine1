@@ -7,9 +7,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: none;
     flex-direction: column;
-    background-color: #81b29a;
+    margin: 0;
+    background-color: #52f507;
 }
 
 .tip {
@@ -27,7 +27,7 @@ body {
 }
 
 .background-left {
-    border-bottom: 400px solid #e07a5f;
+    border-bottom: 400px solid #0d08fa;
     border-left: 100px solid transparent;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .background-right {
-    border-bottom: 400px solid #e07a5f;
+    border-bottom: 400px solid #0d08fa;
     border-right: 100px solid transparent;
 }
 
@@ -52,9 +52,17 @@ body {
     border: 6px dashed #e07a5f;
 }
 
+.core {
+    flex: 1;
+    width: 30%;
+    background-color: #f7052d;
+    margin: 24px 0;
+    border: 6px dashed #e07a5f;
+}
+
 @keyframes tick {
     0%   { transform: rotate(-30deg); }
-    50%  { transform: rotate(30deg);  }
+    50%  { transform: rotate(30deg); }
     100% { transform: rotate(-30deg); }
 }
 
